@@ -1,0 +1,285 @@
+/* ============================================
+   style.css — Restaurante Mais Sabor
+   ============================================ */
+
+/* ── Tipografia base ── */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ── Barra decorativa ── */
+.one {
+  width: 100%;
+  height: 4px;
+  background: green;
+}
+
+/* ── Header ── */
+.header {
+  width: 100%;
+  background: rgb(81, 81, 202);
+  padding: 25px;
+}
+
+.topo {
+  text-align: right;
+}
+
+.topo ul li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
+.topo ul li a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 15px;
+  transition: color 0.3s ease;
+}
+
+.topo ul li a:hover {
+  color: red;
+}
+
+/* ── Banner ── */
+.banner {
+  width: 100%;
+  height: 400px;
+  background: url(../img/banner.png) no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
+
+.banner h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 110px;
+  text-shadow: 2px 2px 10px black;
+  margin-bottom: 50px;
+}
+
+.banner a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 15px 25px;
+  color: white;
+  background: rgb(81, 81, 202);
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner a:hover {
+  background: red;
+  box-shadow: 2px 2px 10px white;
+}
+
+/* ── Seção de Petiscos / Pirões ── */
+.petiscos h2 {
+  margin-top: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(81, 81, 202);
+  text-transform: uppercase;
+}
+
+.petiscos > .container > p {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: green;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.combo {
+  margin-top: 75px;
+  list-style: none;
+}
+
+.combo li {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+
+.combo .imagem {
+  transition: transform 0.5s ease;
+  margin: 0 auto;
+}
+
+.combo .imagem:hover {
+  transform: scale(1.1);
+}
+
+.combo h3 {
+  background: rgb(81, 81, 202);
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+
+.combo p {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  color: black;
+  text-transform: initial;
+  text-align: center;
+}
+
+/* Preço destacado */
+.combo .preco {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  margin-bottom: 5px;
+}
+
+/* Botão de pedido (substituiu h4 > a) */
+.btn-pedido {
+  display: inline-block;
+  text-decoration: none;
+  background-color: green;
+  padding: 10px 18px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.btn-pedido:hover {
+  background-color: rgb(81, 81, 202);
+}
+
+/* ── Bebidas / Slide ── */
+.slide {
+  margin-top: 20px;
+}
+
+.slide h2 {
+  margin-top: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(81, 81, 202);
+  text-transform: uppercase;
+}
+
+.slide p {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: green;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.itens {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+}
+
+.itens img {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ── Localização ── */
+.localizacao h2 {
+  margin-top: 75px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(81, 81, 202);
+  text-transform: uppercase;
+}
+
+.localizacao > .container > p {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: green;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.localizacao2 {
+  display: block;
+  margin: 50px auto;
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+.localizacao {
+  text-align: center;
+}
+
+.localizacao a {
+  display: inline-block; /* abraça só o conteúdo interno */
+  line-height: 0;        /* remove espaço extra abaixo da imagem */
+}
+
+/* ── Rodapé ── */
+.footer {
+  width: 100%;
+  min-height: 60px;
+  background: rgb(81, 81, 202);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* ── Scrollbar personalizada ── */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: rgb(81, 81, 202);
+}
+
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(81, 81, 202);
+}
