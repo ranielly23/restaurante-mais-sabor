@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio — Restaurante Mais Sabor</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
+
+  <!-- Folhas de Estilo -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+  <link rel="stylesheet" href="css/cardapio.css" />
+</head>
+<body>
+
+  <!-- Barra decorativa superior -->
+  <div class="one" aria-hidden="true"></div>
+
+  <!-- Cabeçalho (mesmo do site principal) -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4" aria-label="Ir para a página inicial">
+        <img src="img/logo.png" alt="Logo Mais Sabor" />
+      </a>
+      <nav class="grid-12 topo" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cardapio.html">Cardápio</a></li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero do Cardápio -->
+  <div class="cardapio-hero">
+    <h1>Cardápio<span>+mais sabor</span></h1>
+    <p>Feito com carinho, sabor de verdade</p>
+  </div>
+
+  <!-- Botão Voltar -->
+  <a href="index.html" class="btn-voltar">← Voltar ao início</a>
+
+  <!-- Conteúdo do Cardápio -->
+  <div class="cardapio-wrapper">
+
+    <!-- Combos -->
+    <section class="cardapio-secao" aria-labelledby="sec-combos">
+      <h2 class="cardapio-secao__titulo" id="sec-combos">
+        <span class="icone">🍖</span> Combos Especiais
+      </h2>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Combo "Sextou"</div>
+          <div class="cardapio-item__desc">Acompanha Carne de Sol, Salada e Batata Frita</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 22,00</span>
+      </div>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Combo "Sextou 2.0"</div>
+          <div class="cardapio-item__desc">Acompanha Carne, Frango, Calabresa e Batata Frita</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 24,00</span>
+      </div>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Combo "O Melhor"</div>
+          <div class="cardapio-item__desc">Acompanha Arroz, Medalhão Misto, Farofa, Batata Frita e Feijoada</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 25,00</span>
+      </div>
+
+    </section>
+
+    <!-- Pirões -->
+    <section class="cardapio-secao" aria-labelledby="sec-piraos">
+      <h2 class="cardapio-secao__titulo" id="sec-piraos">
+        <span class="icone">🥘</span> Pirões
+      </h2>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Pirão de Aipim</div>
+          <div class="cardapio-item__desc">Feito com aipim defumado. Acompanha arroz integral, calabresa e farofa</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 20,00</span>
+      </div>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Pirão "O Melhor"</div>
+          <div class="cardapio-item__desc">Acompanha Arroz, Medalhão Misto, Farofa, Batata Frita e Feijoada</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 25,00</span>
+      </div>
+
+      <div class="cardapio-item">
+        <div class="cardapio-item__info">
+          <div class="cardapio-item__nome">Pirão "Gourmet"</div>
+          <div class="cardapio-item__desc">Acompanha Arroz, Carne Seca, Salada e Banana</div>
+        </div>
+        <span class="cardapio-item__preco">R$ 24,00</span>
+      </div>
+
+    </section>
+
+    <!-- Bebidas -->
+    <section class="cardapio-secao" aria-labelledby="sec-bebidas">
+      <h2 class="cardapio-secao__titulo" id="sec-bebidas">
+        <span class="icone">🥤</span> Bebidas
+      </h2>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Refrigerante Lata</span>
+        <span class="bebida-item__preco">R$ 3,50</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Refrigerante 1L</span>
+        <span class="bebida-item__preco">R$ 6,00</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Suco de Maracujá</span>
+        <span class="bebida-item__preco">R$ 8,00</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Suco de Laranja</span>
+        <span class="bebida-item__preco">R$ 6,00</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Suco de Limão</span>
+        <span class="bebida-item__preco">R$ 6,00</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Suco de Abacaxi</span>
+        <span class="bebida-item__preco">R$ 6,00</span>
+      </div>
+
+      <div class="bebida-item">
+        <span class="bebida-item__nome">Heineken Long Neck</span>
+        <span class="bebida-item__preco">R$ 9,00</span>
+      </div>
+
+    </section>
+
+    <!-- Banner de pedido -->
+    <div class="cardapio-pedido">
+      <h2>Gostou? Faça seu pedido!</h2>
+      <p>Atendemos pelo WhatsApp — rápido e fácil 🚀</p>
+      <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido-wpp">
+        💬 Pedir pelo WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Rodapé -->
+  <div class="one" aria-hidden="true"></div>
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="footer-year"></span> Restaurante Mais Sabor — Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>

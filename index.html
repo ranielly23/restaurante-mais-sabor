@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurante Mais Sabor</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Folhas de Estilo: reset/normalize primeiro, depois estilos do projeto -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/mobile.css" />
+</head>
+<body>
+
+  <!-- Barra decorativa superior -->
+  <div class="one" aria-hidden="true"></div>
+
+  <!-- Cabeçalho / Navegação -->
+  <header class="header">
+    <div class="container">
+
+      <a href="index.html" class="grid-4" aria-label="Ir para a página inicial">
+        <img src="img/logo.png" alt="Logo Mais Sabor" />
+      </a>
+
+      <nav class="grid-12 topo" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          
+          <li>
+            <a href="cardapio.html">Cardápio</a>
+          </li>
+          <li>
+            
+            <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="banner" aria-label="Banner de boas-vindas">
+    <div class="container">
+      <h1>Mate sua fome!</h1>
+
+      <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer"
+         aria-label="Fazer pedido pelo WhatsApp">
+        Fazer meu pedido agora
+      </a>
+    </div>
+  </section>
+
+  <!-- Combos de Petiscos -->
+  <section class="petiscos" aria-labelledby="titulo-petiscos">
+    <div class="container">
+      <h2 id="titulo-petiscos">Os melhores petiscos da Cidade</h2>
+      <p>Confira nossos combos</p>
+
+      <ul class="combo">
+
+        <li class="grid-1-3">
+          <h3>Combo "Sextou"</h3>
+          <img src="img/sextou.jpg" alt="Combo Sextou: carne de sol, salada e batata frita" class="imagem" loading="lazy" />
+          <p>Um combo delicioso com <strong>Carne de Sol</strong>, <strong>Salada</strong> e <strong>Batata Frita</strong></p>
+          <p class="preco">R$ 22,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+        <li class="grid-1-3">
+          <h3>Combo "Sextou 2.0"</h3>
+          <img src="img/sextou 2.0.jpg" alt="Combo Sextou 2.0: carne, frango, calabresa e batata frita" class="imagem" loading="lazy" />
+          <p>Ele evoluiu! Com <strong>Carne</strong>, <strong>Frango</strong>, <strong>Calabresa</strong> e <strong>Batata Frita</strong></p>
+          <p class="preco">R$ 24,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+        <li class="grid-1-3">
+          <h3>Combo "O Melhor"</h3>
+          <img src="img/o melhor.jpeg" alt="Combo O Melhor: arroz, medalhão misto, farofa, batata frita e feijoada" class="imagem" loading="lazy" />
+          <p>O Melhor! <strong>Arroz</strong>, <strong>Medalhão Misto</strong>, <strong>Farofa</strong>, <strong>Batata Frita</strong> e <strong>Feijoada</strong></p>
+          <p class="preco">R$ 25,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- Combos de Pirão -->
+  <section class="petiscos" aria-labelledby="titulo-pirao">
+    <div class="container">
+      <h2 id="titulo-pirao">O Melhor Pirão da Cidade</h2>
+      <p>Confira nossos pirões campeões de venda</p>
+
+      <ul class="combo">
+
+        <li class="grid-1-3">
+          <h3>Pirão de Aipim</h3>
+          <img src="img/paipim.jpg" alt="Pirão de aipim com arroz e calabresa" class="imagem" loading="lazy" />
+          <p>O melhor Pirão da Cidade, acompanhado de <strong>Arroz</strong> e <strong>Calabresa</strong></p>
+          <p class="preco">R$ 20,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+        <li class="grid-1-3">
+          <h3>Pirão "O Melhor"</h3>
+          <img src="img/pomelhor.jpg" alt="Pirão O Melhor com arroz, camarão e salada" class="imagem" loading="lazy" />
+          <p>Um Pirão que vai de acompanhamento <strong>Arroz</strong>, <strong>Camarão</strong> e <strong>Salada</strong></p>
+          <p class="preco">R$ 25,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+        <li class="grid-1-3">
+          <h3>Pirão "Gourmet"</h3>
+          <img src="img/pgourmert.jpg" alt="Pirão Gourmet com arroz, carne seca, salada e banana" class="imagem" loading="lazy" />
+          <p>O Top Pirão que acompanha <strong>Arroz</strong>, <strong>Carne seca</strong>, <strong>Salada</strong> e <strong>Banana</strong></p>
+          <p class="preco">R$ 24,00</p>
+
+          <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer" class="btn-pedido">Fazer o Pedido</a>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- Bebidas / Acompanhamentos -->
+  <section class="slide" aria-labelledby="titulo-bebidas">
+    <div class="container">
+      <h2 id="titulo-bebidas">Acompanhamentos</h2>
+      <p>Que tal uma bebida para acompanhar?</p>
+      <div class="itens" aria-label="Bebidas disponíveis">
+        <img src="img/refrigerenta litro.jpg" alt="Refrigerante 1 litro" loading="lazy" />
+        <img src="img/coca.jpg"               alt="Coca-Cola"            loading="lazy" />
+        <img src="img/heineken.jpg"            alt="Heineken"             loading="lazy" />
+        <img src="img/sucolaranja.png"         alt="Suco de laranja"      loading="lazy" />
+        <img src="img/sucoabacaxi.jpg"         alt="Suco de abacaxi"      loading="lazy" />
+        <img src="img/sucolimao.jpg"           alt="Suco de limão"        loading="lazy" />
+        <img src="img/sucomaracuja.jpg"        alt="Suco de maracujá"     loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização -->
+  <section class="localizacao" aria-labelledby="titulo-localizacao">
+    <div class="container">
+      <h2 id="titulo-localizacao">Nossa Localização</h2>
+      <p>Confira onde estamos localizados</p>
+      <!-- TODO: Atualizar coordenadas do mapa para o endereço real do restaurante -->
+      <iframe
+        class="localizacao2"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7346.197583633316!2d-43.22672822610785!3d-22.983394389891394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd577dbabb237%3A0xdcfa7f931ed5c0c9!2sLeMax%20Hamburgueria%20-%20Puc%20Rio%20(G%C3%A1vea)!5e0!3m2!1spt-BR!2sbr!4v1669817782799!5m2!1spt-BR!2sbr"
+        title="Mapa com a localização do restaurante"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+      <a href="https://api.whatsapp.com/send?phone=" target="_blank" rel="noopener noreferrer"
+         aria-label="Fazer pedido pelo WhatsApp">
+        <img src="img/fazerpedido.png" alt="Botão: fazer o pedido" loading="lazy" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <div class="one" aria-hidden="true"></div>
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="footer-year"></span> Restaurante Mais Sabor — Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
